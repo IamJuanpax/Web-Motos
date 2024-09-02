@@ -1,5 +1,6 @@
 import reflex as rx
 from Web_Compras.styles.styles import Size, Image_Size
+from Web_Compras.styles.colors import Color, Color_Text
 
 def link_article(image: str, name: str, description: str, url: str) -> rx.Component:
     return rx.box(
@@ -27,5 +28,6 @@ def link_article(image: str, name: str, description: str, url: str) -> rx.Compon
         width="300px",
         margin="auto",
         text_align="center",
-        spacing="5px"
+        spacing="5px",
+        bg=Color.CONTENT.value
     )

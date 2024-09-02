@@ -13,17 +13,55 @@ def accessories() -> rx.Component:
         ),
         # Primera fila de artículos
         rx.hstack(
-            link_article("casco.jpeg", "bicicleta", "Bicicleta nueva de alta calidad", "https://instagram.com"),
-            link_article("casco.jpeg", "bicicleta", "Bicicleta nueva de alta calidad", "https://instagram.com"),
-            link_article("casco.jpeg", "bicicleta", "Bicicleta nueva de alta calidad", "https://instagram.com"),
-            link_article("casco.jpeg", "bicicleta", "Bicicleta nueva de alta calidad", "https://instagram.com"),
+            link_article(
+                "accessories/casco.jpeg", 
+                "Casco",
+                "Accesorio de alta calidad con garantia incluida",
+                "https://instagram.com"
+                ),
+            link_article(
+                "accessories/anteojos.JPG",
+                "Anteojos",
+                "Accesorio de alta calidad con garantia incluida",
+                "https://instagram.com"
+                ),
+            link_article(
+                "accessories/guantes.JPG",
+                "Guantes",
+                "Accesorio de alta calidad con garantia incluida",
+                "https://instagram.com"
+                ),
+            link_article(
+                "accessories/campera.jpg",
+                "Campera",
+                "Accesorio de alta calidad con garantia incluida", 
+                "https://instagram.com"
+                ),
             width="100%"
         ),
         rx.hstack(
-            link_article("llantas.jpg", "bicicleta", "Bicicleta nueva de alta calidad", "https://instagram.com"),
-            link_article("llantas.jpg", "bicicleta", "Bicicleta nueva de alta calidad", "https://instagram.com"),
-            link_article("llantas.jpg", "bicicleta", "Bicicleta nueva de alta calidad", "https://instagram.com"),
-            link_article("llantas.jpg", "bicicleta", "Bicicleta nueva de alta calidad", "https://instagram.com"),
+            link_article(
+                "accessories/llantas.jpg",
+                "Llantas",
+                "Accesorio de alta calidad con garantia incluida",
+                "https://instagram.com"
+                ),
+            link_article(
+                "accessories/cadena.JPG",
+                "Cadena",
+                "Accesorio de alta calidad con garantia incluida",
+                "https://instagram.com"),
+            link_article(
+                "accessories/suspension.JPG",
+                "Suspension",
+                "Accesorio de alta calidad con garantia incluida",
+                "https://instagram.com"
+                ),
+            link_article(
+                "accessories/botas.JPG",
+                "Botas",
+                "Accesorio de alta calidad con garantia incluida",
+                "https://instagram.com"),
             width="100%"
         ),
         width="100%",
